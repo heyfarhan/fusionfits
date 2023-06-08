@@ -1,0 +1,527 @@
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+.main-section {
+  background-image: url("./img1.jpg");
+  height: 90vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  font-size: 2.5vh;
+}
+
+.menu-list {
+  display: none;
+}
+
+.header {
+  padding: 2vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header .brand {
+  font-size: 3vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.header .main-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: auto;
+  gap: 4vw;
+  list-style-type: none;
+}
+
+.header a {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.header a:hover {
+  text-decoration: none;
+  font-weight: 600;
+  transition: 200ms ease-in-out;
+}
+
+.header .icons {
+  margin: 0 2vw 0 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1vw;
+}
+
+.xmark {
+  display: none;
+}
+
+.menu {
+  display: none;
+}
+
+.header .menu-btn {
+  display: none;
+}
+
+.btn {
+  background-color: rgb(29, 29, 29);
+  color: white;
+  padding: 1vh 2vh;
+  border-radius: 20px;
+  border: none;
+  font-size: 1.2rem;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 30vh;
+  left: 8vw;
+  align-items: center;
+}
+
+.main-text .line-1 {
+  font-size: 8vw;
+  font-family: "Racing Sans One", sans-serif;
+  line-height: 0.8;
+}
+
+.main-text .line-2 {
+  font-family: "Racing Sans One", sans-serif;
+  color: white;
+  font-size: 5.6vw;
+}
+
+.shop-now-btn {
+  scale: 1.2;
+  margin-top: 1vh;
+  width: 7.5vw;
+  border-radius: 6px;
+  font-size: 1.1vw;
+  padding: 0.75vw;
+  white-space: nowrap;
+}
+
+.shop-now-btn:hover {
+  scale: 1.25;
+  transition: 0.15s ease-in-out;
+}
+
+.login:hover {
+  background-color: black;
+  color: white;
+  transition: 0.2s ease-in-out;
+  scale: 1.02;
+  padding: 1vh 2vh;
+}
+
+.section-2 {
+  font-size: 2vh;
+}
+
+.new-arrival {
+  /* font-family: 'Parisienne', cursive; */
+  /* font-family: 'Major Mono Display', monospace; */
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 2vw;
+  margin: 3vw 0 3vw 10vw;
+}
+
+.container {
+  margin: 0vh 0 8vh 0vh;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  gap: 3vw;
+  grid-template-columns: auto auto auto auto;
+}
+
+.product {
+  width: 16vw;
+  height: 40vh;
+  border: 0.2rem solid#f8fafa;
+  border-radius: 2%;
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  /* font-family: 'Parisienne', cursive; */
+  /* font-family: 'Major Mono Display', monospace; */
+  font-family: "Julius Sans One", sans-serif;
+}
+
+.img-div {
+  margin: 4% 0;
+  height: 95%;
+  width: 90%;
+  overflow: hidden;
+}
+
+.img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.img:hover {
+  scale: 1.05;
+  transition: 0.05s ease-in-out;
+}
+
+.product-info {
+  opacity: 0.9;
+  background-color: black;
+  height: 20%;
+  width: 100%;
+  border-radius: 0px 0 0.3rem 0.3rem;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.desc {
+  margin: 1vh 8%;
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15vh;
+}
+
+.price {
+  font-size: 1.5rem;
+  color: yellow;
+}
+
+.buy-now {
+  margin: 1vh 2vh 1vh auto;
+  background-color: yellow;
+  padding: 0.4vh;
+  width: 25%;
+  height: 63%;
+  font-size: 1rem;
+  border-radius: 0.35rem;
+  font-weight: 600;
+  border: none;
+}
+
+.buy-now:hover {
+  scale: 1.1;
+  transition: 0.2s ease;
+  background-color: red;
+  color: white;
+  font-weight: 500;
+}
+
+.hots-container {
+  display: flex;
+  justify-content: center;
+  gap: 2vw;
+  margin: 0 7vh 7vh;
+}
+
+.h-img {
+  height: 40vh;
+  border-radius: 2%;
+  filter: blur(3px);
+}
+
+.h-img:hover {
+  filter: blur(0);
+  scale: 1.02;
+  transition: 0.1s ease-in-out;
+}
+
+.top {
+  margin: 9vh 0 0;
+  height: 60vh;
+  width: 100%;
+}
+
+.last {
+  margin-top: 2vh;
+  background-color: black;
+  opacity: 0.9;
+  /* height: 30vh; */
+  color: white;
+}
+
+.last a {
+  color: white;
+  margin-right: 5vw;
+}
+
+.links {
+  margin: 0 2vh 0 auto;
+}
+
+.last-header {
+  display: flex;
+  gap: 5vw;
+}
+
+.last-header .brand {
+  margin: 1vh auto 1vh 2vh;
+}
+
+.footer {
+  background-color: black;
+  height: 3vh;
+  text-align: center;
+  color: yellow;
+  padding: 1.8vh 0 1.4vh;
+  font-size: 2vh;
+  /* font-family: 'Parisienne', cursive; */
+  font-family: "Major Mono Display", monospace;
+  font-family: "Julius Sans One", sans-serif;
+}
+
+.c {
+  color: white;
+}
+
+@media only screen and (max-width: 1100px) {
+  .header .brand {
+    margin-left: 0.5vw;
+    scale: 1.2;
+  }
+
+  .header .icons {
+    scale: 0.8;
+  }
+
+  .main-section {
+    height: 60vh;
+    font-size: 1.8vh;
+  }
+
+  .main-text {
+    top: 25vh;
+    scale: 1.2;
+  }
+
+  .shop-now-btn {
+    width: 8vw;
+  }
+
+  .new-arrival {
+    font-size: 4vw;
+  }
+
+  .container {
+    grid-template-columns: auto auto;
+    gap: 5vw;
+  }
+
+  .product {
+    height: 34vh;
+    width: 25vh;
+  }
+
+  .product-info {
+    border-radius: 0px 0 0.2rem 0.2rem;
+  }
+
+  .hots-container {
+    flex-direction: column;
+    margin: 5vh 12.5vw;
+  }
+
+  .h-img {
+    height: auto;
+    width: 75vw;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .header .main-list {
+    scale: 0.8;
+  }
+
+  .header .icons {
+    scale: 0.6;
+    white-space: nowrap;
+  }
+
+  .main-section {
+    height: 45vh;
+  }
+
+  .main-text {
+    top: 20vh;
+    scale: 1.2;
+  }
+
+  .shop-now-btn {
+    width: 8vw;
+    border-radius: 3px;
+  }
+
+  .desc {
+    font-size: 0.8rem;
+  }
+
+  .price {
+    font-size: 1rem;
+  }
+
+  .buy-now {
+    font-size: 0.75rem;
+  }
+
+  .last-header {
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    text-align: center;
+  }
+
+  .links {
+    gap: 2vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    scale: 0.9;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .header .brand {
+    margin: 0 auto 0 3vw;
+    font-size: 4.5vw;
+  }
+
+  .header .main-list {
+    display: none;
+  }
+
+  .header .login {
+    display: none;
+  }
+
+  .header .icons {
+    margin: 0 0.5vw 0 0;
+  }
+
+  input {
+    display: none;
+  }
+
+  .header .menu-btn {
+    background-color: transparent;
+    border: none;
+  }
+
+  .header .menu {
+    display: inline;
+    fill: black;
+    font-size: 6vw;
+  }
+
+  .header .xmark {
+    fill: black;
+    font-size: 6vw;
+  }
+
+  #hamb:checked + .lbl .menu {
+    display: none;
+  }
+
+  #hamb:checked + .lbl .xmark {
+    display: inline;
+  }
+
+  #hamb:checked ~ .menu-list {
+    position: absolute;
+    top: -5vh;
+    z-index: -1;
+    right: -9vw;
+    background-color: white;
+    opacity: 0.9;
+    height: 59vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7vh;
+  }
+
+  .list {
+    /* text-align: center; */
+    color: black;
+    font-size: xx-large;
+    list-style-type: none;
+    position: relative;
+    top: 8vh;
+  }
+
+  .list li {
+    padding: 2vh;
+  }
+
+  .list-login {
+    margin-left: 9vw;
+    scale: 1.2;
+  }
+
+  .list-login:hover {
+    background-color: black;
+    color: white;
+    transition: 0.2s ease-in-out;
+    scale: 1.3;
+    padding: 1vh 2vh;
+  }
+
+  .main-section {
+    height: 35vh;
+  }
+
+  .main-text {
+    top: 12vh;
+    scale: 1.2;
+  }
+
+  .shop-now-btn {
+    width: 8vw;
+    margin-top: 1vh;
+    border-radius: 1.5px;
+  }
+
+  .new-arrival {
+    font-size: 3vh;
+    margin: 3vh 5vh;
+  }
+
+  .container {
+    grid-template-columns: auto;
+    gap: 4vh;
+  }
+
+  .extra-product {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .desc {
+    font-size: 0.65rem;
+  }
+
+  .price {
+    font-size: 0.7rem;
+  }
+
+  .buy-now {
+    font-size: 0.55rem;
+  }
+}
