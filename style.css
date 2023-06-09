@@ -54,7 +54,7 @@ body {
 }
 
 .header .icons {
-  margin: 0 2vw 0 0;
+  margin: 0 0vh 0 0;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -324,8 +324,8 @@ body {
   }
 
   .product {
-    height: 34vh;
-    width: 25vh;
+    height: 30vh;
+    width: 20vh;
   }
 
   .product-info {
@@ -505,6 +505,10 @@ body {
   .container {
     grid-template-columns: auto;
     gap: 4vh;
+  }
+  .product {
+    height: 34vh;
+    width: 25vh;
   }
 
   .extra-product {
